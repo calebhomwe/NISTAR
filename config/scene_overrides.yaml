@@ -1,0 +1,32 @@
+overrides:
+  E01_SH001:
+    colour_temperature: "warm dream"
+    notes: "Richer colours than reality — blue, cyan, violet, controlled red lights"
+
+  E01_SH002:
+    colour_temperature: "draining"
+    notes: "Colour progressively bleeds out of the frame"
+
+  E01_SH003:
+    colour_temperature: "cold clinical"
+    notes: "Rain desaturates everything except the flickering amber headlight"
+
+  E01_SH004:
+    colour_temperature: "sickly warm"
+    notes: "Television static glow, can amber, sweat-damp skin"
+
+  E01_SH013:
+    colour_temperature: "cold fluorescent"
+    notes: "Warehouse harsh overhead, green-white cast, puppy warm spot"
+
+  E01_SH016:
+    colour_temperature: "dead fluorescent + rain"
+    notes: "Broken tube flicker, rain reflections provide the only warmth"
+
+  E01_SH018:
+    colour_temperature: "warm controlled interior"
+    notes: "Reina's space is deliberately warm — wine, cream, gold"
+
+  E01_SH019:
+    colour_temperature: "institutional cold"
+    notes: "Prison chapel, single warm light source (candle or lamp)"

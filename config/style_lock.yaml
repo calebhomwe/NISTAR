@@ -1,0 +1,74 @@
+project_style:
+  name: "NISTAR Mature Modern Seinen"
+
+  medium:
+    - hand-drawn 2D anime production frame
+    - modern television anime compositing
+    - flat cel shading
+    - clean black ink outlines
+    - visible hand-drawn character linework
+
+  character_design:
+    - realistic adult proportions
+    - sharp angular facial construction
+    - restrained psychological expressions
+    - smaller mature eyes
+    - heavy upper eyelids
+    - visible lower eyelid line
+    - facial structure defined by linework
+    - no childish anime anatomy
+
+  linework:
+    - moderately thick outer silhouette
+    - thinner facial lines
+    - variable tapered strokes
+    - readable black ink contours
+    - subtle hand-drawn imperfection
+    - detailed hair strands rather than plastic clumps
+
+  shading:
+    - base colour plus one main cel-shadow tone
+    - hard-edged shadow shapes
+    - intentional uneven shadow placement
+    - no painterly skin gradients
+    - no glossy 3D shading
+
+  colour:
+    - more colour than pure noir
+    - controlled mature palette
+    - navy
+    - slate blue
+    - faded cyan
+    - deep green
+    - muted violet
+    - burgundy
+    - wine red
+    - pale blue
+    - cream
+    - warm amber
+    - restrained gold
+    - natural varied skin tones
+    - avoid permanent orange-purple grading
+    - avoid making every character wear black
+
+  lighting:
+    - graphic light and shadow
+    - readable faces
+    - brighter scenes allowed
+    - rain reflections
+    - fluorescent interiors
+    - daylight
+    - dawn
+    - moonlight
+    - warm practical lamps
+    - no bloom
+    - no magical glow
+    - no flat ambient lighting
+
+  finish:
+    - mature psychological seinen
+    - modern polished production
+    - cinematic but recognisably 2D
+    - not digital painting
+    - not photorealistic
+    - not glossy CGI

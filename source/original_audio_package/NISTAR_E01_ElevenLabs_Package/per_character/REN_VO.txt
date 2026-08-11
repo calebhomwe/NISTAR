@@ -1,0 +1,40 @@
+# REN_VO — NISTAR Episode 1: PRIDE
+
+E01_S01_L002 | 01_COLD_OPEN_DREAM
+[quietly] There are men who need rules.
+
+E01_S01_L003 | 01_COLD_OPEN_DREAM
+Men who need warning signs.
+
+E01_S01_L004 | 01_COLD_OPEN_DREAM
+Men who need brakes.
+
+E01_S01_L005 | 01_COLD_OPEN_DREAM
+[with cold certainty] I was never one of them.
+
+E01_S01_L007 | 01_COLD_OPEN_DREAM
+The world moves for men who refuse to stop.
+
+E01_S03_L003 | 03_EMPTY_TANK
+Sato only calls when money is moving.
+
+E01_S03_L004 | 03_EMPTY_TANK
+Money moves when someone is afraid.
+
+E01_S03_L005 | 03_EMPTY_TANK
+Tonight, somebody is afraid.
+
+E01_S03_L006 | 03_EMPTY_TANK
+[dismissive] I'll eat afterwards.
+
+E01_S08_L001 | 08_THE_LIE_AND_THE_WALLET
+Machines are wrong all the time.
+
+E01_S08_L003 | 08_THE_LIE_AND_THE_WALLET
+Machines give up.
+
+E01_S08_L004 | 08_THE_LIE_AND_THE_WALLET
+People give up.
+
+E01_S08_L005 | 08_THE_LIE_AND_THE_WALLET
+[with absolute certainty] I don't.

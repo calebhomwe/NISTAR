@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Large generated media
+wan/output_clips/**/*.mp4
+wan/output_clips/**/*.webm
+wan/approved_clips/*.mp4
+wan/interpolated/
+wan/upscaled/
+audio/dialogue/*.wav
+audio/sfx/*.wav
+audio/selected/*.wav
+davinci/episode_01/video/*.mp4
+davinci/episode_01/dialogue/*.wav
+
+# Keep directory structure
+!wan/output_clips/.gitkeep
+!wan/approved_clips/.gitkeep
+!audio/dialogue/.gitkeep
+!audio/sfx/.gitkeep

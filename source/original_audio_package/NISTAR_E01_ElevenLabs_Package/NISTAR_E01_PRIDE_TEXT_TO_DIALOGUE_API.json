@@ -1,0 +1,614 @@
+[
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L001",
+    "speaker_id": "scripture",
+    "text": "[low and solemn] Pride walks before ruin. Arrogance before collapse."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L002",
+    "speaker_id": "ren_vo",
+    "text": "[quietly] There are men who need rules."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L003",
+    "speaker_id": "ren_vo",
+    "text": "Men who need warning signs."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L004",
+    "speaker_id": "ren_vo",
+    "text": "Men who need brakes."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L005",
+    "speaker_id": "ren_vo",
+    "text": "[with cold certainty] I was never one of them."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L006",
+    "speaker_id": "ren",
+    "text": "[under his breath] I always make it."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L007",
+    "speaker_id": "ren_vo",
+    "text": "The world moves for men who refuse to stop."
+  },
+  {
+    "scene": "01_COLD_OPEN_DREAM",
+    "line_id": "E01_S01_L008",
+    "speaker_id": "the_voice",
+    "text": "[deep, calm, immense] Who told you that you were driving?"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L001",
+    "speaker_id": "daisuke",
+    "text": "[gasps] Jesus\u2014"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L002",
+    "speaker_id": "daisuke",
+    "text": "[breathing shakily] I don't know where my son is."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L003",
+    "speaker_id": "daisuke",
+    "text": "But You do."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L004",
+    "speaker_id": "daisuke",
+    "text": "[quietly, with urgency] Don't let the lie he calls strength kill him."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L005",
+    "speaker_id": "ren",
+    "text": "[gasps sharply]"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L006",
+    "speaker_id": "ren",
+    "text": "[hoarse] Yeah."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L007",
+    "speaker_id": "sato",
+    "text": "[coldly] You are late."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L008",
+    "speaker_id": "ren",
+    "text": "I'm at home."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L009",
+    "speaker_id": "sato",
+    "text": "Not anymore."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L010",
+    "speaker_id": "ren",
+    "text": "What happened?"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L011",
+    "speaker_id": "sato",
+    "text": "Arrive first. Ask questions second."
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L012",
+    "speaker_id": "ren",
+    "text": "Sato\u2014"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L013",
+    "speaker_id": "sato",
+    "text": "And Ren?"
+  },
+  {
+    "scene": "02_PRISON_PRAYER_AND_AWAKENING",
+    "line_id": "E01_S02_L014",
+    "speaker_id": "sato",
+    "text": "[after a short pause] You were already late before the phone rang."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L001",
+    "speaker_id": "ren",
+    "text": "[quietly] At least you don't complain."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L002",
+    "speaker_id": "ren",
+    "text": "[under his breath] I always make it."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L003",
+    "speaker_id": "ren_vo",
+    "text": "Sato only calls when money is moving."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L004",
+    "speaker_id": "ren_vo",
+    "text": "Money moves when someone is afraid."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L005",
+    "speaker_id": "ren_vo",
+    "text": "Tonight, somebody is afraid."
+  },
+  {
+    "scene": "03_EMPTY_TANK",
+    "line_id": "E01_S03_L006",
+    "speaker_id": "ren_vo",
+    "text": "[dismissive] I'll eat afterwards."
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L001",
+    "speaker_id": "associate",
+    "text": "Was that him?"
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L002",
+    "speaker_id": "reina",
+    "text": "[calmly] No."
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L003",
+    "speaker_id": "reina",
+    "text": "Something reached for him."
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L004",
+    "speaker_id": "associate",
+    "text": "Your people?"
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L005",
+    "speaker_id": "reina",
+    "text": "[a faint amused breath] My people do not pray."
+  },
+  {
+    "scene": "04_REINA_SENSES_THE_PRAYER",
+    "line_id": "E01_S04_L006",
+    "speaker_id": "reina",
+    "text": "[quietly] Find out who did."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L001",
+    "speaker_id": "ren",
+    "text": "[low, impatient] Move."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L002",
+    "speaker_id": "ren",
+    "text": "[shouts] No\u2014"
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L003",
+    "speaker_id": "ren",
+    "text": "[stunned] What\u2014"
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L004",
+    "speaker_id": "guardian",
+    "text": "[exhausted, almost a whisper] Again."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L005",
+    "speaker_id": "ren",
+    "text": "[breathes shakily, then laughs once] Still got it."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L006",
+    "speaker_id": "daisuke",
+    "text": "[softly] Thank You."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L007",
+    "speaker_id": "reflection",
+    "text": "[whispers] Run."
+  },
+  {
+    "scene": "05_THE_INTERVENTION",
+    "line_id": "E01_S05_L008",
+    "speaker_id": "ren",
+    "text": "[adrenaline rising] You want a show?"
+  },
+  {
+    "scene": "06_THE_CHASE",
+    "line_id": "E01_S06_L001",
+    "speaker_id": "ren",
+    "text": "[laughing under his breath] You're all too slow."
+  },
+  {
+    "scene": "06_THE_CHASE",
+    "line_id": "E01_S06_L002",
+    "speaker_id": "ren",
+    "text": "[shouts over the engine] They'll never catch me!"
+  },
+  {
+    "scene": "06_THE_CHASE",
+    "line_id": "E01_S06_L003",
+    "speaker_id": "ren",
+    "text": "[angrily] Not tonight."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L001",
+    "speaker_id": "sato",
+    "text": "You are late."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L002",
+    "speaker_id": "ren",
+    "text": "I'm here."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L003",
+    "speaker_id": "sato",
+    "text": "That was not the accusation."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L004",
+    "speaker_id": "ren",
+    "text": "[confused] What is that?"
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L005",
+    "speaker_id": "sato",
+    "text": "Tank."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L006",
+    "speaker_id": "ren",
+    "text": "Tank?"
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L007",
+    "speaker_id": "sato",
+    "text": "He got out."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L008",
+    "speaker_id": "ren",
+    "text": "You called me across the city for a dog?"
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L009",
+    "speaker_id": "sato",
+    "text": "I called you because he was missing."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L010",
+    "speaker_id": "ren",
+    "text": "I had police behind me."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L011",
+    "speaker_id": "sato",
+    "text": "Yes."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L012",
+    "speaker_id": "sato",
+    "text": "You crossed half the city like God Himself was chasing you."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L013",
+    "speaker_id": "sato",
+    "text": "[after a beat] For a dog."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L014",
+    "speaker_id": "ren",
+    "text": "You said it was urgent."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L015",
+    "speaker_id": "sato",
+    "text": "It was urgent to me."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L016",
+    "speaker_id": "sato",
+    "text": "Your problem is not lateness."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L017",
+    "speaker_id": "sato",
+    "text": "Your problem is that you think urgency makes you important."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L018",
+    "speaker_id": "sato",
+    "text": "[quietly] Pride makes noise."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L019",
+    "speaker_id": "sato",
+    "text": "Power does not have to."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L020",
+    "speaker_id": "sato",
+    "text": "Next time you bring police to my door, I take a finger."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L021",
+    "speaker_id": "sato",
+    "text": "Not because I need it."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L022",
+    "speaker_id": "sato",
+    "text": "Because you do."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L023",
+    "speaker_id": "sato",
+    "text": "Now leave."
+  },
+  {
+    "scene": "07_SATO_AND_TANK",
+    "line_id": "E01_S07_L024",
+    "speaker_id": "sato",
+    "text": "[lower and colder] Quietly."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L001",
+    "speaker_id": "ren_vo",
+    "text": "Machines are wrong all the time."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L002",
+    "speaker_id": "ren",
+    "text": "[frustrated] Come on."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L003",
+    "speaker_id": "ren_vo",
+    "text": "Machines give up."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L004",
+    "speaker_id": "ren_vo",
+    "text": "People give up."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L005",
+    "speaker_id": "ren_vo",
+    "text": "[with absolute certainty] I don't."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L006",
+    "speaker_id": "mentor",
+    "text": "This yours?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L007",
+    "speaker_id": "ren",
+    "text": "Where did you get that?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L008",
+    "speaker_id": "mentor",
+    "text": "You dropped it."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L009",
+    "speaker_id": "ren",
+    "text": "Take the money."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L010",
+    "speaker_id": "mentor",
+    "text": "There isn't any."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L011",
+    "speaker_id": "ren",
+    "text": "Then why follow me?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L012",
+    "speaker_id": "mentor",
+    "text": "You should be dead."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L013",
+    "speaker_id": "ren",
+    "text": "[dryly] I get that a lot."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L014",
+    "speaker_id": "mentor",
+    "text": "No."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L015",
+    "speaker_id": "mentor",
+    "text": "You don't."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L016",
+    "speaker_id": "ren",
+    "text": "Who are you?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L017",
+    "speaker_id": "mentor",
+    "text": "Someone who was told to stop."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L018",
+    "speaker_id": "ren",
+    "text": "By who?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L019",
+    "speaker_id": "mentor",
+    "text": "[quietly] You already know."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L020",
+    "speaker_id": "ren",
+    "text": "You walked through rain for a wallet and a sermon?"
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L021",
+    "speaker_id": "mentor",
+    "text": "No."
+  },
+  {
+    "scene": "08_THE_LIE_AND_THE_WALLET",
+    "line_id": "E01_S08_L022",
+    "speaker_id": "mentor",
+    "text": "I walked through rain because tonight was the closest you have ever come to understanding that you are not immortal."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L001",
+    "speaker_id": "ren",
+    "text": "[sharply] Don't touch me."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L002",
+    "speaker_id": "mentor",
+    "text": "Then listen."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L003",
+    "speaker_id": "mentor",
+    "text": "[calm, direct prayer] Jesus Christ\u2014"
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L004",
+    "speaker_id": "mentor",
+    "text": "Open his eyes before the darkness teaches him to call mercy skill."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L005",
+    "speaker_id": "reina",
+    "text": "[through the phone, intimate and controlled] Come home, Ren."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L006",
+    "speaker_id": "reina",
+    "text": "Before your father's God takes anything else from me."
+  },
+  {
+    "scene": "09_THE_PRAYER_AND_THE_CALL",
+    "line_id": "E01_S09_L007",
+    "speaker_id": "ren",
+    "text": "[stunned, barely audible] My father is dead."
+  },
+  {
+    "scene": "10_POST_CREDIT",
+    "line_id": "E01_S10_L001",
+    "speaker_id": "guard",
+    "text": "Kisaragi."
+  },
+  {
+    "scene": "10_POST_CREDIT",
+    "line_id": "E01_S10_L002",
+    "speaker_id": "guard",
+    "text": "You have a visitor."
+  },
+  {
+    "scene": "10_POST_CREDIT",
+    "line_id": "E01_S10_L003",
+    "speaker_id": "daisuke",
+    "text": "Who?"
+  },
+  {
+    "scene": "10_POST_CREDIT",
+    "line_id": "E01_S10_L004",
+    "speaker_id": "guard",
+    "text": "[uneasy] Your wife."
+  }
+]

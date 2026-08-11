@@ -1,0 +1,22 @@
+order,shot_id,title,duration_target,characters,status
+1,E01_SH001,Dream Highway,4,ren,waiting_for_input
+2,E01_SH002,The Void,4,ren,waiting_for_input
+3,E01_SH003,Crash Aftermath,4,ren,waiting_for_input
+4,E01_SH004,Ren Awakens,3,ren,waiting_for_input
+5,E01_SH005,Garage Reveal,4,ren,waiting_for_input
+6,E01_SH006,Fuel Warning,3,ren,waiting_for_input
+7,E01_SH007,Semi-Truck Threat,4,ren,waiting_for_input
+8,E01_SH008A,Guardian Reveal,4,guardian,waiting_for_input
+9,E01_SH008B,Mechanical Correction,3,guardian,waiting_for_input
+10,E01_SH009,Near Miss,3,ren,waiting_for_input
+11,E01_SH010,Still Got It,3,ren,waiting_for_input
+12,E01_SH011,Chase Interior,3,ren,waiting_for_input
+13,E01_SH012,Warehouse Arrival,4,ren,waiting_for_input
+14,E01_SH013,Sato and Puppy,4,ren|sato,waiting_for_input
+15,E01_SH014,Final Dashboard,3,ren,waiting_for_input
+16,E01_SH015,Wallet in Rain,3,,waiting_for_input
+17,E01_SH016,Service Station Mentor,4,ren|mentor,waiting_for_input
+18,E01_SH017,Prayer,4,ren|mentor,waiting_for_input
+19,E01_SH018,Reina Call,3,reina,waiting_for_input
+20,E01_SH019,Prison Prayer,4,daisuke,waiting_for_input
+21,E01_SH020,Post-Credit Visitor,4,daisuke,waiting_for_input

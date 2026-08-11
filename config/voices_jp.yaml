@@ -1,0 +1,131 @@
+voices:
+  ren:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Ren
+    description: Ren — young, proud, guarded (rough masculine)
+    stability: 0.5
+    similarity_boost: 0.8
+    style: 0.4
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  ren_vo:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Ren Vo
+    description: Ren internal monologue — intimate, low
+    stability: 0.5
+    similarity_boost: 0.8
+    style: 0.35
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  reflection:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Reflection
+    description: Ren's mirror-self — same voice, colder
+    stability: 0.55
+    similarity_boost: 0.8
+    style: 0.4
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  daisuke:
+    voice_id: UUpoAQhpz37lNIWNVLoF
+    name: Daisuke
+    description: Daisuke — humbled ex-con, deep, weathered
+    stability: 0.65
+    similarity_boost: 0.75
+    style: 0.25
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Kuro - Mature Anime Gentleman
+  sato:
+    voice_id: GxxMAMfQkDlnqjpzjLHH
+    name: Sato
+    description: Sato — cold crime boss, measured menace
+    stability: 0.8
+    similarity_boost: 0.7
+    style: 0.1
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Kozy - Inviting, Measured and Guttural
+  reina:
+    voice_id: ugYcuAusTuWCSOpJD0Xd
+    name: Reina
+    description: Reina — elegant menace (only JP female in roster)
+    stability: 0.72
+    similarity_boost: 0.8
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Seyana Seya - Social Meida & Voice Actor
+  mentor:
+    voice_id: j210dv0vWm7fCknyQpbA
+    name: Mentor
+    description: Mentor — warm, grounded
+    stability: 0.6
+    similarity_boost: 0.75
+    style: 0.25
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Hinata - Inviting, Smooth and Measured
+  scripture:
+    voice_id: 4sirbXwrtRlmPV80MJkQ
+    name: Scripture
+    description: Scripture — solemn, ethereal, literary
+    stability: 0.85
+    similarity_boost: 0.7
+    style: 0.1
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Sora - Calm, Clear and Airy
+  the_voice:
+    voice_id: 6wdSVG3CMjPfAthsnMv9
+    name: The Voice
+    description: The Voice — deep, calm, immense, divine
+    stability: 0.85
+    similarity_boost: 0.75
+    style: 0.1
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Makoto - Japanese male
+  guardian:
+    voice_id: xQpTJhLkPZnRFTV4mc3k
+    name: Guardian
+    description: Guardian — weary, worn human
+    stability: 0.6
+    similarity_boost: 0.7
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Ren - Smooth & Soothing
+  guard:
+    voice_id: A4AyGcPAjb1pHgflyZZp
+    name: Guard
+    description: Prison guard — procedural, steady
+    stability: 0.7
+    similarity_boost: 0.7
+    style: 0.15
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Ritsuto - Anime Prince Voice
+  associate:
+    voice_id: 9NgkqGk9ImCns5ZyAIzN
+    name: Associate
+    description: Crime associate — rough, blunt
+    stability: 0.55
+    similarity_boost: 0.7
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Kai - Bright Storyteller
+  narrator:
+    voice_id: 4sirbXwrtRlmPV80MJkQ
+    name: Narrator
+    description: Narrator — restrained (unused in E01)
+    stability: 0.8
+    similarity_boost: 0.7
+    style: 0.1
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Sora - Calm, Clear and Airy

@@ -1,0 +1,36 @@
+generation:
+  # One take per line by default. Bump these (or a line's entry) only when you
+  # actually want alternates to choose from — no reason to 3x-5x every line.
+  normal_takes: 1
+  critical_takes: 1
+  output_format: "wav"
+  sample_rate: 44100
+  retry_max: 3
+  retry_delay_seconds: 5
+  rate_limit_pause_seconds: 60
+  dry_run: false
+
+sfx:
+  model_id: "eleven_sound_effects"
+  duration_seconds_default: 4
+  takes: 3
+
+dialogue:
+  model_id: "eleven_multilingual_v2"
+  optimize_streaming_latency: 0
+
+output:
+  dialogue_dir: "audio/dialogue"
+  sfx_dir: "audio/sfx"
+  selected_dir: "audio/selected"
+  manifest_dir: "audio/manifests"
+  log_dir: "audio/logs"
+
+naming:
+  pattern: "{episode}_{scene}_{character}_{line_id}_TAKE{take:02d}.wav"
+  sfx_pattern: "{episode}_{scene}_{sfx_id}_TAKE{take:02d}.wav"
+
+# Critical lines get extra takes (5 vs 3). Real line IDs from the package script.
+critical_lines:
+  - "E01_S01_L006"   # Ren: "I always make it." (signature line)
+  - "E01_S01_L008"   # The Voice: "Who told you that you were driving?"

@@ -1,0 +1,17 @@
+[project]
+name = "nistar-production-pipeline"
+version = "0.1.0"
+description = "NISTAR Episode 1: PRIDE — WAN 2.2 MAX + ElevenLabs production pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "requests>=2.28",
+    "python-dotenv>=1.0",
+    "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

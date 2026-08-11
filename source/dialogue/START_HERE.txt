@@ -1,0 +1,3 @@
+NISTAR E01 — PASTE ORDER
+
+Generate one scene at a time using the files in /scenes. Use /api_json for structured Text to Dialogue. Use /per_character when generating voices separately. Remove speaker names only for single-speaker Text to Speech. Keep lowercase square-bracket tags. Generate critical lines three to five times.

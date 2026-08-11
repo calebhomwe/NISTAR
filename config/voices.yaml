@@ -1,0 +1,132 @@
+voices:
+  ren:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Ren
+    description: Young adult male, low register, guarded, pride masking exhaustion
+    stability: 0.55
+    similarity_boost: 0.8
+    style: 0.35
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  daisuke:
+    voice_id: UUpoAQhpz37lNIWNVLoF
+    name: Daisuke
+    description: Older male, deep and rough, humbled, carries weight of past violence
+    stability: 0.65
+    similarity_boost: 0.75
+    style: 0.25
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Kuro - Mature Anime Gentleman
+  reina:
+    voice_id: pFZP5JQG7iQjIQuC4Bku
+    name: Reina
+    description: Mature woman, smooth and controlled, elegant menace, never raises
+      voice
+    stability: 0.7
+    similarity_boost: 0.8
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Lily - Velvety Actress
+  sato:
+    voice_id: GxxMAMfQkDlnqjpzjLHH
+    name: Sato
+    description: Older male, flat affect, quiet authority, measured pacing
+    stability: 0.75
+    similarity_boost: 0.7
+    style: 0.15
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Kozy - Inviting, Measured and Guttural
+  mentor:
+    voice_id: JBFqnCBsd6RMkjVDRZzb
+    name: Mentor
+    description: Middle-aged male, warm but not soft, grounded, unhurried
+    stability: 0.65
+    similarity_boost: 0.75
+    style: 0.2
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: George - Warm, Captivating Storyteller
+  narrator:
+    voice_id: SAz9YHcvj6GT2YYXdXww
+    name: Narrator
+    description: Neutral, restrained, documentary tone
+    stability: 0.8
+    similarity_boost: 0.7
+    style: 0.1
+    use_speaker_boost: false
+    model_id: eleven_multilingual_v2
+    voice_name: River - Relaxed, Neutral, Informative
+  ren_vo:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Ren Vo
+    description: Ren internal voiceover — intimate, reflective, low
+    stability: 0.5
+    similarity_boost: 0.8
+    style: 0.4
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  reflection:
+    voice_id: ZcX76PwFSkrkyI78RBTK
+    name: Reflection
+    description: Ren's mirror-self / reflection — same voice, colder
+    stability: 0.55
+    similarity_boost: 0.8
+    style: 0.4
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Nayuta - Dark Anime Hero
+  scripture:
+    voice_id: pqHfZKP75CvOlQylNhV4
+    name: Scripture
+    description: Scripture voice — solemn, weighty, timeless
+    stability: 0.8
+    similarity_boost: 0.7
+    style: 0.15
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Bill - Wise, Mature, Balanced
+  the_voice:
+    voice_id: nPczCjzI2devNBz1zQrb
+    name: The Voice
+    description: The Voice — deep, calm, immense, divine authority
+    stability: 0.85
+    similarity_boost: 0.75
+    style: 0.1
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Brian - Deep, Resonant and Comforting
+  guardian:
+    voice_id: jtE6dbPUTt2kchN89Uej
+    name: Guardian
+    description: Guardian — weary, deep, raspy, worn human
+    stability: 0.6
+    similarity_boost: 0.7
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: James - Deep, Raspy and Grim
+  guard:
+    voice_id: cjVigY5qzO86Huf0OWal
+    name: Guard
+    description: Prison guard — neutral, procedural, steady
+    stability: 0.7
+    similarity_boost: 0.7
+    style: 0.15
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Eric - Smooth, Trustworthy
+  associate:
+    voice_id: pNInz6obpgDQGcFmaJgB
+    name: Associate
+    description: Crime associate — rough, blunt, dominant
+    stability: 0.55
+    similarity_boost: 0.7
+    style: 0.3
+    use_speaker_boost: true
+    model_id: eleven_multilingual_v2
+    voice_name: Adam - Dominant, Firm

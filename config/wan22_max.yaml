@@ -1,0 +1,51 @@
+model:
+  name: "WAN 2.2 MAX"
+  parameter_size: "14B"
+  quantisation: "Q8"
+  mode_preference: "image_to_video"
+  allow_text_to_video: true
+
+generation:
+  width: 832
+  height: 480
+  frames: 81
+  steps: 20
+  batch_size: 1
+  speed_lora: false
+  seed: null
+  output_fps: 24
+  skip_existing: true
+  overwrite_existing: false
+
+workflow:
+  discovery_passes: 3
+  lock_seed_after_approval: true
+  one_camera_move_per_shot: true
+  one_primary_action_per_shot: true
+  preserve_character_identity: true
+  preserve_costume: true
+  preserve_vehicle_identity: true
+
+motion:
+  default_strength: "subtle"
+  allowed:
+    - subtle breathing
+    - one natural blink
+    - slight eye movement
+    - hair movement
+    - clothing movement
+    - rain
+    - smoke
+    - water
+    - light flicker
+    - slow camera push
+    - slow camera pullback
+    - controlled tracking
+  avoid:
+    - multiple camera moves
+    - uncontrolled camera orbit
+    - excessive head movement
+    - large mouth movement
+    - complex hand actions
+    - crowded action
+    - rapid identity-changing motion

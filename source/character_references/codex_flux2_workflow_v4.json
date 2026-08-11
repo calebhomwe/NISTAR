@@ -1,0 +1,217 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "deathnote-ensemble-reference.png"
+      }
+    },
+    "2": {
+      "class_type": "ImageScaleToTotalPixels",
+      "inputs": {
+        "image": ["1", 0],
+        "upscale_method": "lanczos",
+        "megapixels": 1.1,
+        "resolution_steps": 16
+      }
+    },
+    "3": {
+      "class_type": "GetImageSize",
+      "inputs": {
+        "image": ["2", 0]
+      }
+    },
+    "4": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux-2-klein-9b-kv-fp8.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "5": {
+      "class_type": "LoraLoaderModelOnly",
+      "inputs": {
+        "model": ["4", 0],
+        "lora_name": "flux_animeo.safetensors",
+        "strength_model": 0.55
+      }
+    },
+    "6": {
+      "class_type": "LoraLoaderModelOnly",
+      "inputs": {
+        "model": ["5", 0],
+        "lora_name": "flux_real_anime.safetensors",
+        "strength_model": 0.28
+      }
+    },
+    "7": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_8b_fp8mixed.safetensors",
+        "type": "flux2",
+        "device": "default"
+      }
+    },
+    "8": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "9": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": ["2", 0],
+        "vae": ["8", 0]
+      }
+    },
+    "10": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": ["7", 0],
+        "text": "Restyle the ensemble as an authentic mature seinen psychological crime-thriller anime production frame, strongly matching the supplied Death Note anime close-up reference in facial construction, line economy, cel shading, color science and television compositing. Preserve the exact composition and every original character. Lock identities: upper left pale adult woman, shoulder-length black hair, black feathered collar, dangling earrings; upper right pale adult man, long silver-grey hair; center young adult man, short messy black hair, black high collar; lower left rugged adult man, dark slicked-back hair and stubble; lower right adult man, short dark-brown hair, glasses, brown cardigan, holding a dark Bible. Never change gender, age, hair color, glasses, clothing role, pose or placement. Mature realistic head-to-body proportions; narrow adult eyes; heavy upper eyelids and visible lower lids; angular jaw, nose bridge and cheek planes drawn with precise thin-to-medium ink; subtle under-eye tension; intelligent guarded expressions. Clean hand-drawn animation contours, selective interior facial lines, no decorative ink texture. Flat cel base colors with one hard-edged shadow and a restrained second accent shadow. Dark grounded urban palette: blue-black, charcoal, dirty olive, muted brown, grey-green stone, warm muted skin, small burgundy accents. Dramatic but readable noir key light, deep controlled shadows, realistic fabric folds, gothic architecture, subtle 35mm grain. Premium 2000s TV anime keyframe, serious adult drama, quiet menace, polished cel compositing. No text, logo or watermark."
+      }
+    },
+    "11": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": ["7", 0],
+        "text": "generic retro anime, Saturday-morning cartoon, shonen poster, mobile game art, manga page, manga panel, graphic novel, engraving, etching, woodcut, crosshatching, dense hatch marks, screentone, stippling, scratchy ink, thick comic outlines, flat simplistic face, blond hair, gender swap, costume redesign, blue monochrome, excessive rain, over-sharpening, crunchy edges, digital painting, photorealistic, CGI, plastic skin, soft airbrush, bloom, neon, oversaturation, chibi, moe, giant eyes, sparkly eyes, childish proportions, chunky hair, vector art, beauty filter, muddy face, crushed blacks, duplicate character, missing character, changed composition, text, logo, watermark"
+      }
+    },
+    "12": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": ["10", 0],
+        "latent": ["9", 0]
+      }
+    },
+    "13": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": ["11", 0],
+        "latent": ["9", 0]
+      }
+    },
+    "14": {
+      "class_type": "CFGGuider",
+      "inputs": {
+        "model": ["4", 0],
+        "positive": ["28", 0],
+        "negative": ["29", 0],
+        "cfg": 3.8
+      }
+    },
+    "15": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "noise_seed": 8132006
+      }
+    },
+    "16": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "17": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "steps": 16,
+        "width": ["3", 0],
+        "height": ["3", 1]
+      }
+    },
+    "18": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "width": ["3", 0],
+        "height": ["3", 1],
+        "batch_size": 1
+      }
+    },
+    "19": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "noise": ["15", 0],
+        "guider": ["14", 0],
+        "sampler": ["16", 0],
+        "sigmas": ["17", 0],
+        "latent_image": ["18", 0]
+      }
+    },
+    "20": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": ["19", 0],
+        "vae": ["8", 0]
+      }
+    },
+    "21": {
+      "class_type": "UpscaleModelLoader",
+      "inputs": {
+        "model_name": "4x_NMKD-Siax_200k.pth"
+      }
+    },
+    "22": {
+      "class_type": "ImageUpscaleWithModel",
+      "inputs": {
+        "upscale_model": ["21", 0],
+        "image": ["20", 0]
+      }
+    },
+    "23": {
+      "class_type": "ImageScale",
+      "inputs": {
+        "image": ["22", 0],
+        "upscale_method": "lanczos",
+        "width": 3840,
+        "height": 2080,
+        "crop": "disabled"
+      }
+    },
+    "24": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": ["23", 0],
+        "filename_prefix": "Codex/Seinen_Ensemble_Flux2_4K_v4"
+      }
+    },
+    "25": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "deathnote-seinen-closeup-reference.png"
+      }
+    },
+    "26": {
+      "class_type": "ImageScaleToTotalPixels",
+      "inputs": {
+        "image": ["25", 0],
+        "upscale_method": "lanczos",
+        "megapixels": 0.28,
+        "resolution_steps": 16
+      }
+    },
+    "27": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": ["26", 0],
+        "vae": ["8", 0]
+      }
+    },
+    "28": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": ["12", 0],
+        "latent": ["27", 0]
+      }
+    },
+    "29": {
+      "class_type": "ReferenceLatent",
+      "inputs": {
+        "conditioning": ["13", 0],
+        "latent": ["27", 0]
+      }
+    }
+  }
+}

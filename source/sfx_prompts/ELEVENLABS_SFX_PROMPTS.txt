@@ -1,0 +1,52 @@
+# NISTAR Episode 1 — ElevenLabs Sound Effects Prompt Pack
+
+01_ENGINE_DREAM
+High-performance Japanese turbocharged inline-six engine accelerating through an empty elevated highway at night, clean aggressive exhaust note, turbo spool, precise gear changes, no music.
+
+02_CRASH_SEQUENCE
+Catastrophic high-speed vehicle collision with a concrete barrier, immediate metal compression, windshield burst, debris and glass, multiple heavy impacts, no slow motion, then abrupt silence.
+
+03_TV_STATIC_ROOM
+Old television white noise in a small neglected apartment, subtle electrical hum, seamless thirty-second loop.
+
+04_PHONE_RING
+Harsh inexpensive mobile phone ringing and vibrating on a wooden coffee table, urgent and irritating.
+
+05_SICK_ENGINE_START
+Old modified sports car struggling to start in a concrete garage, weak starter motor, repeated ignition attempts, rough misfiring idle.
+
+06_FUEL_WARNING
+Persistent automotive low-fuel warning chime, isolated short electronic beeps.
+
+07_RAINY_CAR_INTERIOR
+Heavy night rain against a car windscreen and roof, wipers, distant traffic, enclosed vehicle perspective.
+
+08_SEMI_TRUCK_NEAR_MISS
+Large semi-truck horn and diesel engine crossing at speed on a wet road, air brakes, tyre spray, violent wind passing extremely close.
+
+09_REALITY_SHARPENS
+Psychological supernatural transition, compressed ambience, low-frequency pressure, rain becoming unnaturally detailed, subtle reversed metallic texture, no magical sparkle.
+
+10_POLICE_CHASE
+Two urban police sirens pursuing at high speed through wet city streets, doppler movement, tyre noise, underpass acoustics.
+
+11_DRIFT_AND_IMPACT
+Sports car handbrake drift in a narrow wet alley, tyres screaming, mirror striking a metal dumpster, sparks and breaking glass.
+
+12_WAREHOUSE_ROOM_TONE
+Large dark industrial warehouse at night, distant rain on metal roof, fluorescent hum, faint puppy whimper.
+
+13_PUPPY
+Tiny eight-week-old puppy trembling and making two soft uncertain whimpers, no barking.
+
+14_ENGINE_DIES
+Damaged sports car engine coughing, sputtering and losing power before shutting down beneath a service-station awning.
+
+15_SERVICE_STATION
+Abandoned closed service station at night in heavy rain, dead fluorescent signs buzzing intermittently, distant road traffic.
+
+16_LIGHTS_BLACKOUT
+Fluorescent lights abruptly switching off in sequence, electrical pop, deep room tone, then complete darkness.
+
+17_BIBLE_CLOSE
+Old heavy leather-bound Bible closing firmly on a wooden surface in a quiet prison chapel.

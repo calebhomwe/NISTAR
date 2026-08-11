@@ -1,0 +1,41 @@
+MODE: IMAGE TO VIDEO
+MODEL: WAN 2.2 MAX 14B Q8
+WIDTH: 832
+HEIGHT: 480
+FRAMES: 81
+STEPS: 20
+BATCH: 1
+SPEED LORA: OFF
+SEED: BLANK FOR DISCOVERY
+
+INPUT IMAGE:
+wan/input_frames/E01_SH010_input.png
+
+POSITIVE PROMPT:
+Close-up on young man's face inside car after near-miss, breathing settling, hand still trembling on steering wheel, small arrogant proud smile forming on lips, red and blue police lights beginning to appear reflected in rear window, grey-blue eyes, messy dark hair, guarded pride, Original mature psychological seinen anime production keyframe, hand-drawn 2D television anime look, realistic adult proportions, sharp angular face construction, restrained psychological expression, moderately thick clean outer ink lines, thinner facial linework, tapered hair strokes, smaller mature eyes, heavy upper eyelids, visible lower eyelid lines, flat iris colour, minimal eye highlights, base colour plus one hard-edged cel-shadow tone, modern clean compositing, controlled mature colour palette, readable skin tones, navy, slate blue, faded cyan, deep green, burgundy, violet and restrained warm practical light, cinematic framing, realistic physical weight, subtle hand-drawn imperfection, consistent character identity, consistent clothing, premium modern seinen thriller
+
+NEGATIVE PROMPT:
+photorealistic live action, digital painting, painterly concept art, glossy CGI, western 3D animation, plastic skin, airbrushed skin, soft gradient shading, excessive bloom, orange and purple colour wash, oversaturated neon, rainbow cyberpunk, chibi, cute anime, childish face, giant eyes, sparkling eyes, goofy shonen expression, exaggerated anatomy, changing face, changing hairstyle, changing clothing, unstable identity, face melting, warped eyes, bad hands, extra fingers, deformed vehicle, changing car model, melted wheels, excessive motion blur, multiple camera moves, uncontrolled camera orbit, random symbols, subtitles, text, logo, watermark, photorealistic live action, digital painting, painterly concept art, glossy CGI, western 3D animation, plastic skin, airbrushed skin, soft gradient shading, excessive bloom, orange and purple colour wash, oversaturated neon, rainbow cyberpunk, chibi, cute anime, childish face, giant eyes, sparkling eyes, goofy shonen expression, exaggerated anatomy, changing face, changing hairstyle, changing clothing, unstable identity, face melting, warped eyes, bad hands, extra fingers, deformed vehicle, changing car model, melted wheels, excessive motion blur, multiple camera moves, uncontrolled camera orbit, random symbols, subtitles, text, logo, watermark
+
+MOTION PRIORITY:
+- Primary: Ren's small arrogant smile forms after the save
+- Secondary: breathing settling, hand tremor on wheel, small proud smile forming, police lights appearing in rear window
+
+CAMERA:
+close-up on Ren's face, stable
+
+LIGHTING:
+dashboard glow + emerging red-blue police light
+
+COLOUR SCRIPT:
+Warm interior + cold red/blue creeping in
+
+REJECT IF:
+- Face drift or identity change
+- Hair/outfit change
+- Vehicle deformation
+- Multiple camera moves
+- Excessive mouth animation
+- CGI/photorealistic drift
+- Orange-purple colour wash
+- Text/watermark appears

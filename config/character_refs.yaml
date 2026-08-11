@@ -1,0 +1,177 @@
+characters:
+  ren:
+    full_name: "Ren"
+    age: "early twenties"
+    gender: "male"
+    build: "lean, athletic"
+    height_relationship: "average to slightly tall"
+    face:
+      structure: "sharp angular mature jawline"
+      eyes: "grey-blue"
+      hair_colour: "dark (near-black)"
+      hair_style: "messy, slightly long, textured strands"
+      expression_default: "proud, exhausted, guarded"
+    canonical_reference: "stills/characters/ren/ren_canonical.png"
+    alternate_references:
+      - "stills/characters/ren/ren_three_quarter.png"
+      - "stills/characters/ren/ren_profile.png"
+      - "stills/characters/ren/ren_driving.png"
+    default_outfit: "charcoal coat over dark layers"
+    alternate_outfits:
+      - "navy jacket, faded white shirt"
+      - "dark green work jacket"
+      - "burgundy inner layer, dark trousers"
+      - "plain white undershirt (home)"
+    forbidden_changes:
+      - "eye colour must stay grey-blue"
+      - "hair must stay dark and messy"
+      - "no glasses"
+      - "no facial hair"
+      - "no childish or cute expression"
+    seed_history: []
+    approved_shots: []
+
+  daisuke:
+    full_name: "Daisuke"
+    age: "late fifties"
+    gender: "male"
+    build: "strong, weathered, humbled"
+    height_relationship: "tall, broad-shouldered"
+    face:
+      structure: "heavy, scarred, lined"
+      eyes: "dark brown"
+      hair_colour: "grey-streaked black, short"
+      hair_style: "cropped close"
+      expression_default: "quiet conviction, grief underneath"
+    canonical_reference: "stills/characters/daisuke/daisuke_canonical.png"
+    alternate_references:
+      - "stills/characters/daisuke/daisuke_kneeling.png"
+      - "stills/characters/daisuke/daisuke_prison.png"
+    default_outfit: "simple prison uniform"
+    alternate_outfits:
+      - "plain ministry clothes, muted earth tones"
+      - "worn white undershirt"
+    props:
+      - "worn Bible"
+    forbidden_changes:
+      - "must keep scars visible"
+      - "never clean-shaven pretty-boy"
+      - "never in flashy clothes"
+    seed_history: []
+    approved_shots: []
+
+  reina:
+    full_name: "Reina"
+    age: "late forties to early fifties"
+    gender: "female"
+    build: "elegant, poised"
+    height_relationship: "average, appears taller through posture"
+    face:
+      structure: "sharp, attractive, controlled"
+      eyes: "dark, calculating"
+      hair_colour: "black with subtle highlights"
+      hair_style: "sleek, styled, never messy"
+      expression_default: "smug, dangerous stillness"
+    canonical_reference: "stills/characters/reina/reina_canonical.png"
+    alternate_references:
+      - "stills/characters/reina/reina_mirror.png"
+      - "stills/characters/reina/reina_phone.png"
+    default_outfit: "dark plum or wine red, modern wealth"
+    alternate_outfits:
+      - "charcoal and cream"
+      - "deep green, muted gold jewellery"
+      - "burgundy wrap"
+    props:
+      - "red-stone ring"
+      - "phone"
+    forbidden_changes:
+      - "never halloween witch costume"
+      - "never theatrical or cartoony"
+      - "power through stillness, never screaming"
+    seed_history: []
+    approved_shots: []
+
+  sato:
+    full_name: "Sato"
+    age: "fifties"
+    gender: "male"
+    build: "solid, controlled"
+    height_relationship: "average"
+    face:
+      structure: "flat, unreadable, calm authority"
+      eyes: "dark, narrow"
+      hair_colour: "greying black"
+      hair_style: "neat, conservative"
+      expression_default: "quiet menace through calm"
+    canonical_reference: "stills/characters/sato/sato_canonical.png"
+    alternate_references:
+      - "stills/characters/sato/sato_warehouse.png"
+    default_outfit: "grey or navy suit, understated"
+    alternate_outfits:
+      - "brown coat"
+      - "cream shirt, charcoal trousers"
+    forbidden_changes:
+      - "no exaggerated villain design"
+      - "no scars or eyepatches"
+      - "authority through stillness"
+    seed_history: []
+    approved_shots: []
+
+  mentor:
+    full_name: "Mentor"
+    age: "forties to fifties"
+    gender: "male"
+    build: "average, grounded"
+    height_relationship: "slightly shorter than Ren"
+    face:
+      structure: "warm, lined, honest"
+      eyes: "brown"
+      hair_colour: "dark brown, greying at temples"
+      hair_style: "simple, slightly unkempt"
+      expression_default: "calm but not weak"
+    canonical_reference: "stills/characters/mentor/mentor_canonical.png"
+    alternate_references:
+      - "stills/characters/mentor/mentor_service_station.png"
+    default_outfit: "simple practical clothes, warmer neutral palette"
+    alternate_outfits:
+      - "plain button shirt, work trousers"
+      - "light jacket over plain tee"
+    forbidden_changes:
+      - "never stereotypical preacher costume"
+      - "no clerical collar"
+      - "no golden cross necklace"
+      - "calm not weak"
+    seed_history: []
+    approved_shots: []
+
+  guardian:
+    full_name: "Guardian"
+    age: "indeterminate (appears weathered, forties)"
+    gender: "male"
+    build: "wiry, functional strength"
+    height_relationship: "tall, hunched"
+    face:
+      structure: "gaunt, weary, human"
+      eyes: "pale grey, tired"
+      hair_colour: "dark, unwashed"
+      hair_style: "unkempt, medium length"
+      expression_default: "patient exhaustion"
+    canonical_reference: "stills/characters/guardian/guardian_canonical.png"
+    alternate_references:
+      - "stills/characters/guardian/guardian_car_hood.png"
+      - "stills/characters/guardian/guardian_hands.png"
+    default_outfit: "old work clothing, worn canvas jacket"
+    alternate_outfits:
+      - "just the jacket, no layers"
+    props:
+      - "steel-toe boots"
+      - "scarred hands"
+    forbidden_changes:
+      - "NO wings"
+      - "NO halo"
+      - "NO glow"
+      - "NO demonic appearance"
+      - "NO ethereal beauty"
+      - "must look human and tired"
+    seed_history: []
+    approved_shots: []

@@ -1,0 +1,173 @@
+{
+  "episode": "episode_01",
+  "cues": [
+    {
+      "order": 1,
+      "shot_id": "E01_SH001",
+      "title": "Dream Highway",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 2,
+      "shot_id": "E01_SH002",
+      "title": "The Void",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 3,
+      "shot_id": "E01_SH003",
+      "title": "Crash Aftermath",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 4,
+      "shot_id": "E01_SH004",
+      "title": "Ren Awakens",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 5,
+      "shot_id": "E01_SH005",
+      "title": "Garage Reveal",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 6,
+      "shot_id": "E01_SH006",
+      "title": "Fuel Warning",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 7,
+      "shot_id": "E01_SH007",
+      "title": "Semi-Truck Threat",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 8,
+      "shot_id": "E01_SH008A",
+      "title": "Guardian Reveal",
+      "duration_target": 4,
+      "characters": "guardian",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 9,
+      "shot_id": "E01_SH008B",
+      "title": "Mechanical Correction",
+      "duration_target": 3,
+      "characters": "guardian",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 10,
+      "shot_id": "E01_SH009",
+      "title": "Near Miss",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 11,
+      "shot_id": "E01_SH010",
+      "title": "Still Got It",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 12,
+      "shot_id": "E01_SH011",
+      "title": "Chase Interior",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 13,
+      "shot_id": "E01_SH012",
+      "title": "Warehouse Arrival",
+      "duration_target": 4,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 14,
+      "shot_id": "E01_SH013",
+      "title": "Sato and Puppy",
+      "duration_target": 4,
+      "characters": "ren|sato",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 15,
+      "shot_id": "E01_SH014",
+      "title": "Final Dashboard",
+      "duration_target": 3,
+      "characters": "ren",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 16,
+      "shot_id": "E01_SH015",
+      "title": "Wallet in Rain",
+      "duration_target": 3,
+      "characters": "",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 17,
+      "shot_id": "E01_SH016",
+      "title": "Service Station Mentor",
+      "duration_target": 4,
+      "characters": "ren|mentor",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 18,
+      "shot_id": "E01_SH017",
+      "title": "Prayer",
+      "duration_target": 4,
+      "characters": "ren|mentor",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 19,
+      "shot_id": "E01_SH018",
+      "title": "Reina Call",
+      "duration_target": 3,
+      "characters": "reina",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 20,
+      "shot_id": "E01_SH019",
+      "title": "Prison Prayer",
+      "duration_target": 4,
+      "characters": "daisuke",
+      "status": "waiting_for_input"
+    },
+    {
+      "order": 21,
+      "shot_id": "E01_SH020",
+      "title": "Post-Credit Visitor",
+      "duration_target": 4,
+      "characters": "daisuke",
+      "status": "waiting_for_input"
+    }
+  ]
+}
