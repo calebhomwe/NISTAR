@@ -1,0 +1,26 @@
+name: test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - name: Unit tests
+        run: python -m pytest -q
+      - name: Pipeline dry runs (no API calls, no GPU)
+        run: |
+          python scripts/build_wan_manifest.py
+          python scripts/export_wan_prompts.py
+          python scripts/generate_dialogue.py --dry-run
+          python scripts/generate_sfx.py --dry-run
+          python scripts/estimate_generation_load.py

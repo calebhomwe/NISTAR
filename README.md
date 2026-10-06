@@ -4,6 +4,18 @@
 
 Mature psychological seinen anime production pipeline using WAN 2.2 MAX (14B Q8) for video generation and ElevenLabs for dialogue/SFX.
 
+## Play / Test
+
+```bash
+pip install -r requirements.txt pytest
+python -m pytest -q                              # 29 tests
+python scripts/generate_dialogue.py --dry-run    # full dialogue plan, no API calls
+```
+Windows: `SETUP.bat` then `START_HERE.bat`. CI (`.github/workflows/test.yml`) runs the
+tests plus the manifest/prompt export and audio dry runs. Real generation needs an
+ElevenLabs key (`.env`), approved character stills and a WAN 2.2 GPU box;
+`VALIDATE_WAN_INPUTS.bat` reports missing input frames until stills are added.
+
 ## Quick Start
 
 1. **Run SETUP.bat** — creates venv, installs deps, unpacks audio, builds manifests, runs tests
