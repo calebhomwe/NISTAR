@@ -20,11 +20,12 @@ def test_dry_run_dialogue():
         text="I always make it.",
     )
     outputs = gen.generate_dialogue(line)
-    assert len(outputs) == 3  # normal_takes default
+    # take counts come from config/audio_generation.yaml (deliberately 1 by default)
+    assert len(outputs) == gen.config["generation"]["normal_takes"]
 
 
 def test_dry_run_critical():
-    """Critical lines get more takes."""
+    """Critical lines use the configured critical_takes count."""
     gen = AudioGenerator(dry_run=True)
     line = DialogueLine(
         line_id="TEST_002",
@@ -35,7 +36,7 @@ def test_dry_run_critical():
         is_critical=True,
     )
     outputs = gen.generate_dialogue(line)
-    assert len(outputs) == 5  # critical_takes default
+    assert len(outputs) == gen.config["generation"]["critical_takes"]
 
 
 def test_dry_run_sfx():
@@ -49,7 +50,7 @@ def test_dry_run_sfx():
         duration_seconds=4,
     )
     outputs = gen.generate_sfx(entry)
-    assert len(outputs) == 3
+    assert len(outputs) == gen.config["sfx"]["takes"]
 
 
 if __name__ == "__main__":
